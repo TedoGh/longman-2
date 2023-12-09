@@ -2,7 +2,7 @@ import i18next from "i18next";
 import Cookies from "js-cookie";
 import { useEffect, useState } from "react";
 
-export default function LangsBN() {
+export default function LanguageSwitcher() {
   const [currentLanguageCode, setCurrentLanguageCode] = useState(
     Cookies.get("i18next") || "ka"
   );
@@ -25,5 +25,3 @@ export default function LangsBN() {
     </div>
   );
 }
-
-// top-[33px] right-[33px] fixed

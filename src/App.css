@@ -4,14 +4,14 @@
 
 @font-face {
   font-family: "HelveticaNeueLTGEO";
-  src: url("./Fonts/HelveticaNeueLTGEO-55Roman.otf");
+  src: url("../src/assets/fonts/HelveticaNeueLTGEO-55Roman.otf");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: "HelveticaNeueLTGEO-bold";
-  src: url("./Fonts/HelveticaNeueLTGEO-75Bold.otf");
+  src: url("../src/assets/fonts/HelveticaNeueLTGEO-75Bold.otf");
   font-style: normal;
   font-weight: normal;
 }
@@ -20,10 +20,30 @@ body {
   font-family: "HelveticaNeueLTGEO";
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #04aa6d;
+}
+
 .activeLink {
   color: #04aa6d;
 }
 
 .font-case {
   font-feature-settings: "case";
+}
+
+.swiper-pagination {
+  margin-bottom: 70px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #04aa6d !important;
 }

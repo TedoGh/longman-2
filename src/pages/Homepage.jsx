@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import HowToWorks from "../components/HowToWorks";
+import Testimonials from "../components/Testimonials";
 
 export default function Homepage() {
   const { t } = useTranslation();
@@ -10,7 +11,7 @@ export default function Homepage() {
   return (
     <>
       <Header />
-      <div className="py-[70px] bg-darkBlue">
+      <div className="py-[70px] bg-darkBlue dark:bg-[#000]">
         <div className="max-w-[1200px] mx-auto px-8">
           <div className="grid grid-cols-2 gap-16">
             <div>
@@ -20,7 +21,10 @@ export default function Homepage() {
               <p className="text-lightYellow text-xl font-bold">
                 {t("enjoyLearnText")}
               </p>
-              <button className="mt-[75px] bg-[#1ACD81] hover:bg-[#0fa968] text-darkBlue font-bold rounded-[30px] w-[294px] h-[47px]  p-[10px] gap-[10px]">
+              <button
+                className="mt-[75px] bg-[#1ACD81] hover:bg-[#0fa968] text-darkBlue font-bold rounded-[30px] w-[294px] h-[47px]  p-[10px] gap-[10px]"
+                onClick={() => alert("შექმენი ახალი ქარდი")}
+              >
                 {t("startText")}
               </button>
             </div>
@@ -31,6 +35,7 @@ export default function Homepage() {
         </div>
       </div>
       <HowToWorks />
+      <Testimonials />
       <Footer />
     </>
   );

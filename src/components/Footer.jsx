@@ -6,7 +6,7 @@ export default function Footer() {
 
   return (
     <footer>
-      <div className="text-sm text-footerText border-t border-footerBorder py-7 flex justify-center items-center">
+      <div className="text-sm text-footerText border-t border-footerBorder py-7 flex justify-center items-center helveticaBold font-case">
         <span>
           © {Year} {t("footerRights")}
         </span>

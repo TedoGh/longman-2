@@ -1,9 +1,8 @@
 import React from "react";
-import "animate.css";
 
 const HowToWorks = () => {
   return (
-    <div className="py-[65px] animate__animated animate__fadeInDown">
+    <div className="py-[65px] animate__animated animate__fadeInDown dark:bg-darkBlue">
       <div className="max-w-[1200px] mx-auto">
         <h1 className="text-darkBlue text-2xl font-bold text-center font-case">
           როგორ მუშაობს ?
@@ -16,7 +15,7 @@ const HowToWorks = () => {
                   <img src="https://svgshare.com/i/10aE.svg" />
                 </div>
               </div>
-              <h1 className="mt-6 mb-8 text-darkBlue text-2xl font-bold">
+              <h1 className="mt-6 mb-8 text-darkBlue dark:text-[#fff] text-2xl font-bold">
                 შექმენით ბარათები
               </h1>
               <p className="text-lg">

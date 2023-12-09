@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import LangsBN from "./LangsBN";
-import ThemeBN from "./ThemeBN";
+import LanguageSwitcher from "./LanguageSwitcher";
+import ThemeSwitcher from "./ThemeSwitcher";
 import Logo from "./Logo";
 
 export default function Header() {
@@ -22,22 +22,22 @@ export default function Header() {
     {
       id: 3,
       name: `${t("addCardText")}`,
-      path: "/2323",
+      path: "/longman/addcard",
     },
     {
       id: 4,
       name: `${t("allCardsText")}`,
-      path: "/343",
+      path: "/longman/cards",
     },
     {
       id: 5,
       name: `${t("trainText")}`,
-      path: "/long545man",
+      path: "/longman/train",
     },
     {
       id: 6,
       name: `${t("myProgressText")}`,
-      path: "/long5451man",
+      path: "/longman/progress",
     },
   ];
 
@@ -65,8 +65,8 @@ export default function Header() {
             </ul>
           </nav>
           <div className="flex gap-8">
-            <ThemeBN />
-            <LangsBN />
+            <ThemeSwitcher />
+            <LanguageSwitcher />
           </div>
         </div>
       </div>

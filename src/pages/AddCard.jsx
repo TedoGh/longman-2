@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
 import { useState, useEffect } from "react";
-import moreVertLight from "../imgs/moreVertLight.svg";
-import moreVertDark from "../imgs/moreVertDark.svg";
-import trash from "../imgs/trash.svg";
+import moreVertLight from "../assets/images/moreVertLight.svg";
+import moreVertDark from "../assets/images/moreVertDark.svg";
+import trash from "../assets/images/trash.svg";
 import Header from "../components/Header";
 
 const API = "https://dzenebieri-flashcards-api.onrender.com/cards";
