@@ -1,0 +1,20 @@
+{
+  "createCardText": "შექმენი ახალი ქარდი",
+  "enjoyLearnText": " დაამატე ქარდი და ისწავლე ჩვენთან ერთად!",
+  "homeText": "მთავარი",
+  "aboutText": "ჩვენ შესახებ",
+  "addCardText": "ბარათის დამატება",
+  "allCardsText": "ყველა ბარათი",
+  "trainText": "ვარჯიში",
+  "myProgressText": "ჩემი პროგრესი",
+  "startText": "დამატება",
+  "addCardBNText": "შექმენით ქარდი",
+  "addCardPlaceGeoText": "დაწერეთ სიტყვა ქართულად...",
+  "addCardPlaceEngText": "დაწერეთ სიტყვა ინგლისურად...",
+  "footerRights": "ყველა უფლება დაცულია",
+  "trainPageTrainText": "ივარჯიშეთ",
+  "trainPageClickText": "დააწკაპე ქარდს და ისწავლე ახალი სიტყვები!",
+  "trainPageGeoLangText": "ქართული",
+  "trainPageEngLangText": "ინგლისური",
+  "trainPageStartTrainBNText": "დაიწყე ვარჯიში"
+}

@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "HelveticaNeueLTGEO";
+  src: url("./Fonts/HelveticaNeueLTGEO-55Roman.otf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "HelveticaNeueLTGEO-bold";
+  src: url("./Fonts/HelveticaNeueLTGEO-75Bold.otf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  font-family: "HelveticaNeueLTGEO";
+}
+
+.activeLink {
+  color: #04aa6d;
+}
+
+.font-case {
+  font-feature-settings: "case";
+}
