@@ -41,7 +41,8 @@ body {
 }
 
 .swiper-pagination {
-  margin-bottom: 70px;
+  position: relative !important;
+  top: 38px !important;
 }
 
 .swiper-pagination-bullet-active {
